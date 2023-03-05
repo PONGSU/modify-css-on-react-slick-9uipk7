@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+}
+.slick-slider {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
+}
+.slick-track {
+  display: flex;
+  gap: 20px;
+}
+.custom-prevArrow,
+.custom-nextArrow {
+  position: relative;
+  z-index: 1;
+}
+.custom-prevArrow {
+  left: -10px;
+}
+.custom-nextArrow {
+  right: -10px;
+}
+.custom-prevArrow:hover,
+.custom-nextArrow:hover {
+  fill: green;
+  cursor: pointer;
+}
+
+.slick-dots li button:before {
+  color: rgb(0, 0, 0) !important;
+  font-size: 10px !important;
+  margin-top: 10px;
+}
+.slick-dots button {
+  /* background-color: blue !important; */
+}
+
+.slick-dots li.slick-active button:before {
+  color: rgb(0, 0, 0) !important;
+  /* font-size: 12px !important; */
+}
