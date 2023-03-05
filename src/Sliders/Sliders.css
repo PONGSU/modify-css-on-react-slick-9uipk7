@@ -18,10 +18,10 @@
   z-index: 1;
 }
 .custom-prevArrow {
-  left: -10px;
+  left: 30px;
 }
 .custom-nextArrow {
-  right: -10px;
+  right: 30px;
 }
 .custom-prevArrow:hover,
 .custom-nextArrow:hover {
